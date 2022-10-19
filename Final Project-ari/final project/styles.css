@@ -1,0 +1,115 @@
+.topnav{
+    float: right;
+    background-color:honeydew;
+    text-align: center;
+    margin:3px;
+    font-size: 17px;
+    border: 7px;
+    width: 250px;
+    border-style: groove;
+    border-color: darkgoldenrod;
+}
+
+.logo{
+height: 90px;
+width: 90px;
+}
+
+.Logotwo{
+display: block;
+text-align: center; right: -130px;
+}
+:active{
+    color:darkgoldenrod;
+}
+
+
+body{
+    background-color:honeydew
+}
+
+h1{
+color: goldenrod;
+text-align: left;
+font-family:fantasy;
+margin-bottom: -100px;
+}
+
+.image{
+width: 245px;
+height: 400px;
+border-radius: 50%;
+overflow: hidden;
+padding-right: 55px;
+border: 10px;
+border-style:double;
+border-color: goldenrod;
+display:flex;
+float:inline-start;
+shape-outside: ellipse();
+margin-right: 25px;
+}
+
+.text{
+font-size: 30px;
+}
+hr{
+border: 1px;
+border-style:groove;
+border-color:goldenrod;
+}
+
+#slider{
+    overflow: hidden;
+
+}
+
+#slider figure{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    animation: 10s slider infinite;
+}
+
+#slider figure img{
+    width: 20%;
+    float:left;
+}
+
+@keyframes slider{
+    0%{
+        left:0;
+    }
+    20%{
+        left:0;
+    }
+    25%{
+        left:-100%;
+    }
+    45%{
+        left:-100%;
+    }
+    50%{
+        left:-200%;
+    }
+}
+
+.insta{
+    margin-right: 20px;
+    float: right;
+    padding-top: 75px;
+}
+
+.copyright{
+ text-align: center;
+ font-size: large;
+ padding-top: 50px;
+ padding-left: 240px;
+ color: darkgoldenrod;
+}
+/*start of shop page*/
+
+.heading{
+    text-align: center;
+}

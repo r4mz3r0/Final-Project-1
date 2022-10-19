@@ -1,0 +1,59 @@
+.container{
+    width: 1500px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+header,
+nav,
+article,
+section,
+aside,
+footer{
+    border: 1px solid rgb(255, 255, 255);
+    border-color: darkolivegreen;
+    border-style: groove;
+    text-align: center;
+}
+header{
+    text-align: center;
+}
+
+main{
+    height: 1150px;
+    width: 69%;
+    float: left;
+}
+
+section{
+    height: 400px;
+    padding-left: 5px;
+    padding-right:5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #333; url(..) no-repeat right top;
+}
+
+article{
+    height: 340px;
+    padding-left: 5px;
+    padding-right:5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: cornflowerblue;
+}
+aside{
+    height: 1150px;
+    width:29%;
+    float: right;
+    padding-left: 5px;
+    padding-right:5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer{
+    clear: both;
+}
+
+
