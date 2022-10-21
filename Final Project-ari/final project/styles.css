@@ -57,6 +57,7 @@ hr{
 border: 1px;
 border-style:groove;
 border-color:goldenrod;
+width:100%;
 }
 
 #slider{
