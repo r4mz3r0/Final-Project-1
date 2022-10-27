@@ -1,6 +1,6 @@
 .topnav{
     float: right;
-    background-color:cornsilk;
+    background-color:rgb(251, 233, 231);
     text-align: center;
     margin:3px;
     font-size: 17px;
@@ -8,26 +8,23 @@
     width: 270px;
     border-style: groove;
     border-color: darkgoldenrod;
-    
+   margin-bottom: 20px;
+   
 }
 
 .logo{
 height: 90px;
 width: 90px;
 }
-
-.Logotwo{
-text-align: center;
-}
 a:active{
     color:darkgoldenrod;
 }
 
 a:hover{
-    color:seagreen;
+    color:plum;
 }
 body{
-    background-color:cornsilk;
+    background-color:rgb(251, 233, 231);
 }
 
 h1{
@@ -35,6 +32,7 @@ color: goldenrod;
 text-align: left;
 font-family:fantasy;
 margin-bottom: -100px;
+text-shadow: 6px 6px wheat;
 }
 
 .image{
@@ -48,8 +46,8 @@ border-style:double;
 border-color: goldenrod;
 display:flex;
 float:inline-start;
-shape-outside: ellipse();
 margin-right: 25px;
+shape-outside: ellipse();
 }
 
 .text{
@@ -62,46 +60,18 @@ border-color:goldenrod;
 width:100%;
 }
 
-#slider{
-    overflow: hidden;
-
+.slideshow{
+background-color: mistyrose;
 }
-
-#slider figure{
-    position: relative;
-    width: 100%;
-    margin: 0;
-    left: 0;
-    animation: 10s slider infinite;
-}
-
-#slider figure img{
-    width: 20%;
-    float:left;
-}
-
-@keyframes slider{
-    0%{
-        left:0;
-    }
-    20%{
-        left:0;
-    }
-    25%{
-        left:-100%;
-    }
-    45%{
-        left:-100%;
-    }
-    50%{
-        left:-200%;
-    }
-}
-
 .insta{
     margin-right: 20px;
     float: right;
-    padding-top: 75px;
+    padding-top: 80px;
+    text-decoration: none;
+}
+
+.facebook{
+    text-decoration: none;
 }
 
 .copyright{
@@ -114,13 +84,16 @@ width:100%;
 /*start of shop page*/
 .heading{
 text-align: center;
-margin-top:-10px;
+color:darkgoldenrod;
+font-family: 'Tangerine', cursive;
+padding-top: 50px;
 }
 
 .products1{
-padding-top: 100px;
+padding-top:150px;
 display: flex;
 gap: .5rem;
+background-color: mistyrose;
 }
 .box{
     padding-left: 200px;
@@ -137,6 +110,10 @@ gap: .5rem;
 
 img{
     border-radius: 15%;
+}
+h2{
+color: darkgoldenrod;
+font-family: fantasy;
 }
 
 /*contact page*/
@@ -163,6 +140,7 @@ input{
 .container{
     border-radius: 5px;
    padding: 20px;
+   background-color:mistyrose
 }
 
 video{
@@ -170,8 +148,19 @@ video{
  border: 4px;
  border-color: darkgoldenrod;
  border-style: groove;
- 
+margin-left: 590px;
 }
+
+.text2{
+    text-align: center;
+}
+
+iframe{
+    border: 2px;
+    border-style: ridge;
+    border-color: goldenrod;
+}
+
 
 
 
