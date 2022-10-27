@@ -24,7 +24,7 @@ a:hover{
     color:plum;
 }
 body{
-    background-color:rgb(251, 233, 231);
+    background-color: rgb(251, 233, 231);
 }
 
 h1{
@@ -61,7 +61,7 @@ width:100%;
 }
 
 .slideshow{
-background-color: mistyrose;
+background-color:mistyrose;
 }
 .insta{
     margin-right: 20px;
@@ -93,7 +93,7 @@ padding-top: 50px;
 padding-top:150px;
 display: flex;
 gap: .5rem;
-background-color: mistyrose;
+background-color:mistyrose;
 }
 .box{
     padding-left: 200px;
@@ -155,11 +155,8 @@ margin-left: 590px;
     text-align: center;
 }
 
-iframe{
-    border: 2px;
-    border-style: ridge;
-    border-color: goldenrod;
-}
+
+
 
 
 
